@@ -1,5 +1,6 @@
 import React from 'react';
-import HeroImage from '../assets/hero1.gif';
+import HeroImage from '../assets/Female.gif';
+import Success from '../assets/Success.gif';
 import { motion } from 'framer-motion';
 import { slideUp } from '../utility/animation';
 
@@ -14,9 +15,18 @@ const Hero = () => {
                         <motion.h1 variants={slideUp(0.2)} initial='initial' animate='animate' className='text-4xl xl:text-6xl font-bold'>Create and sell custom <span className='text-gray-500'>products</span></motion.h1>
 
                         <motion.div variants={slideUp(0.4)} initial='initial' animate='animate'>
-                            <p>100% Free to use</p>
-                            <p>900+ High-Quality Products</p>
-                            <p>Largest global print network</p>
+                            <div className='flex items-center'>
+                                <img src={Success} alt='Success' className='h-9 w-9' />
+                                <p>100% Free to use</p>
+                            </div>
+                            <div className='flex items-center'>
+                                <img src={Success} alt='Success' className='h-9 w-9' />
+                                <p>900+ High-Quality Products</p>
+                            </div>
+                            <div className='flex items-center'>
+                                <img src={Success} alt='Success' className='h-9 w-9' />
+                                <p>Largest global print network</p>
+                            </div>
                         </motion.div>
 
                         <motion.div variants={slideUp(0.6)} initial='initial' animate='animate' className='flex gap-4'>

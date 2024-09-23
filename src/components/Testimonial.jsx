@@ -6,7 +6,7 @@ const Testimonial = () => {
 
     const setting = {
         dots: true,
-        arrow: true,
+        arrow: false,
         infinite: true,
         speed: 500,
         slidesToScroll: 1,

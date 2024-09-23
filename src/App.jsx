@@ -3,7 +3,6 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Testimonial from "./components/Testimonial"
-import ShellCard from "./components/ShellCard"
 
 
 function App() {

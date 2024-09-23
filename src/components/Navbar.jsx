@@ -11,7 +11,7 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
     return (
-        <motion.main variants={slideBottom(0.5)} initial='initial' animate='animate' className='sticky z-100 top-0 bg-white'>
+        <motion.main variants={slideBottom(0.5)} initial='initial' animate='animate' className='sticky z-100 top-0 bg-white z-50'>
             <nav className='shadow-md'>
                 <div className='flex justify-between px-8 item-center py-2 container mx-auto'>
                     <div className='flex items-center'>
