@@ -11,7 +11,7 @@ const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
 
     return (
-        <motion.main variants={slideBottom(0.5)} initial='initial' animate='animate' className='sticky z-100 top-0 bg-white z-50'>
+        <motion.main variants={slideBottom(0.5)} initial='initial' animate='animate' className='sticky top-0 bg-white z-50'>
             <nav className='shadow-md'>
                 <div className='flex justify-between px-8 item-center py-2 container mx-auto'>
                     <div className='flex items-center'>
@@ -39,7 +39,7 @@ const Navbar = () => {
                     </div>
 
                     {/* Sidebar */}
-                    <div className={clsx("fixed h-full w-screen lg:hidden bg-black/20 backdrop-blur-sm top-0 right-0 -translate-x-full transition duration-500", openMenu && "translate-x-0")}>
+                    <div className={clsx("fixed h-full w-screen lg-hidden bg-black/20 backdrop-blur-sm top-0 right-0 -translate-x-full transition duration-500", openMenu && "translate-x-0")}>
                         <section className='text-gray-700 bg-white flex-col absolute left-0 top-0 h-screen p-8 gap-8 z-50 flex w-60'>
                             <div className='flex items-center space-x-20'>
                                 <p className='text-2xl font-bold'>Menu</p>
@@ -69,12 +69,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-
-
-// Catalog
-// How it works
-// Pricing
-// Blog
-// Services
-// Use - cases
-// Need help ?

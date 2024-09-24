@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Card from "./components/Card"
 import Footer from "./components/Footer"
 import Testimonial from "./components/Testimonial"
+import HeroTwo from "./components/HeroTwo"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Navbar />
         <Hero />
         <Card />
+        <HeroTwo />
         <Testimonial />
         <Footer />
       </main>
